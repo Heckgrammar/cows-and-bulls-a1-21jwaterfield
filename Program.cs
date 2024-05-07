@@ -44,7 +44,7 @@ namespace COWS_AND_BULLS__EXTENSION
                 while (win == false)
                 {
                     Boolean uTorF = false;
-                    while (uTorF == false)
+                    while (uTorF == false) 
                     {
                         Console.Write("Guess a number (it has to be YOUR number of digits long and cannot contain repeated numbers): ");
                         int unumStr = Convert.ToInt32(Console.ReadLine());
